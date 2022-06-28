@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@monorepo-nx/std-watch/sections": [
+        "libs/std-watch/sections/src/index.js"
+      ],
+      "@monorepo-nx/std-watch/services": [
+        "libs/std-watch/services/src/index.js"
+      ],
+      "@monorepo-nx/std-watch/ui": ["libs/std-watch/ui/src/index.js"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
