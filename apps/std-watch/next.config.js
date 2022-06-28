@@ -10,6 +10,15 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+  // images: {
+  //   loader: 'imgix',
+  //   path: 'https://example.com/myaccount/',
+  // },
 };
 
 module.exports = withNx(nextConfig);
+
